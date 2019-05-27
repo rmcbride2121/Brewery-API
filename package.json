@@ -1,0 +1,27 @@
+{
+  "name": "marvel-comic-character-look-up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "js-md5": "^0.7.3",
+    "node": "^12.2.0",
+    "node-fetch": "^2.6.0",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmcbride2121/Marvel-Comic-Character-Look-Up.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmcbride2121/Marvel-Comic-Character-Look-Up/issues"
+  },
+  "homepage": "https://github.com/rmcbride2121/Marvel-Comic-Character-Look-Up#readme"
+}
