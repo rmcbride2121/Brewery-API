@@ -1,12 +1,10 @@
-// "use strict";
-// const assert = require("assert");
+"use strict";
+const assert = require("assert");
 
 require('dotenv').config();
 const fetch = require('node-fetch');
 const readline = require('readline');
-//const colors = require('colors');
 
-// const apiKey = process.env.API_KEY; 
 const apiKey = '3c82ce574363740a47d3fb42a6269a94';
 
 const baseURL = 'https://sandbox-api.brewerydb.com/v2/';
@@ -58,8 +56,17 @@ getPrompt();
 getPrompt();
 
 //tests
-// describe('URL', function() {
-//   it('baseURL', function() {
-//     assert.deepEqual(baseURL, "https://sandbox-api.brewerydb.com/v2/")
-//   })
-// })
+describe('fetch', function() {
+  it('baseURL', function() {
+    assert.deepEqual(baseURL, "https://sandbox-api.brewerydb.com/v2/")
+  })
+  it('apiKey', function() {
+    assert.deepEqual(apiKey, '3c82ce574363740a47d3fb42a6269a94')
+  })
+  it('nodeFetch', function() {
+    assert.deepEqual(fetch, require('node-fetch'))
+  })
+  it('readline', function() {
+    assert.deepEqual(readline, require('readline'))
+  })
+})
