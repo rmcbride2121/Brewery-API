@@ -6,7 +6,7 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "js-md5": "^0.7.3",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "node": "^12.2.0",
     "node-fetch": "^2.6.0",
     "requirejs": "^2.3.6"
